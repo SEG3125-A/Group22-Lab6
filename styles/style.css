@@ -1,0 +1,77 @@
+
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+html {
+  background-color: white;
+}
+ 
+body {
+  background-color: #0071ce; /* Walmart Blue */
+  width: 100%;
+  border: 2px solid black;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color:#ffc220;  /* Walmart yellow */
+}
+
+h2 {
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  align: center;
+}
+
+p {
+  color: white;
+}
+
+table {
+	border: 1px solid black;
+	background-color: #f1f1c1;
+}
+
+textarea {
+  margin : 20px
+}
+
+.submitButton {
+  width: 20%
+}
+
+/* Defining styling for a specific element type - each question */
+.question {
+  background-color: #ffc220;  /* Walmart yellow */
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Defining styling for a specific element type - large block buttons */
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ffc220;  /* Walmart yellow */
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Defining styling for a specific element with an id */
+#signature {
+  text-align: right;
+  color: white;
+  font-style: italic;
+  font-size: 75%;
+}
