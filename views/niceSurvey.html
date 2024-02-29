@@ -17,25 +17,41 @@
 	<div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
     <h1>Survey</h1>
     <form>
-      <h2> What fruits(s) do you like? </h2>
-      I like:<br>
-      <input type="text" name="fruit" placeholder="fruit name..." required />
+      <h2> What do you think about the visual appeal and layout of the website? </h2>
+      I think:<br>
+      <input type="text" name="visual" placeholder="my thoughts..." required />
       <br>
       <br>
-      <h2> What color(s) do you like? </h2>
-	    I like:<br>
-		  <input type="checkbox" name="color" value="Red"> Red<br>
-		  <input type="checkbox" name="color" value="Green"> Green<br>
-      <input type="checkbox" name="color" value="Blue"> Blue<br>
+      <h2> How would you rate how easy it is to us Walmart website to get your shopping done? </h2>
+	    I think:<br>
+		  <input type="radio" name="ease" value="very-difficult"> Very Difficult<br>
+		  <input type="radio" name="ease" value="difficult"> Difficult<br>
+      <input type="radio" name="ease" value="neutral"> Neutral<br>
+      <input type="radio" name="ease" value="easy"> Easy<br>
+      <input type="radio" name="ease" value="very-easy"> Very Easy<br>
       <br>
-      <h2>What is your favorite animal?</h2>
-      I like:<br>
-      <select name="animal">
-			  <option value="Cat" selected="selected">Cat</option>
-			  <option value="Dog">Dog</option>
-			  <option value="Turtle">Turtle</option>
+      <h2>What is the greatest strength of the current website?</h2>
+      I think:<br>
+      <select name="strength">
+			  <option value="ease" selected="ease">Ease of Use</option>
+			  <option value="speed">Speed of the site</option>
+			  <option value="visual">Visual Appeal</option>
+        <option value="search">Search Functionality</option>
+			  <option value="accessibility">Accesibility</option>
+			  <option value="other">Other</option>
       </select>
       <br>
+      <h2> Which of the following issues do you have with the UI? </h2>
+	    I think:<br>
+		  <input type="checkbox" name="issue" value="confusing"> Confusing layout or design<br>
+		  <input type="checkbox" name="issue" value="information-images"> Inadequate product information or images<br>
+      <input type="checkbox" name="issue" value="search"> Ineffective search functionality<br>
+      <input type="checkbox" name="issue" value="accesibility"> Insufficient accesibility features<br>
+      <input type="checkbox" name="issue" value="customer-support"> Inadequate customer support options<br>
+      <br>
+      <h2> Do you have any feedback for the Walmart site? </h2>
+      I think:<br>
+      <input id="comments" name="comments" rows="4" cols="50" required></input>
       <br>
       <button type="submit" class="btn btn-warning" id="bb">Submit</button>
       <p id="thanks"></p>
